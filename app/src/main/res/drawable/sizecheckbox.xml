@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:state_checked="false"
+    android:drawable="@drawable/checkbox2_size_blank_yellow">
+</item>
+    <item
+        android:drawable="@drawable/checkbox2_sizze_box_yellow"
+        android:state_checked="true">
+    </item>
+</selector>

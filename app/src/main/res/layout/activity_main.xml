@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.jaya.customview.View.CustomView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:background="@color/squareColor"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        app:square_size="@dimen/square_size"
+        app:square_color="@color/squareColor"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECKBOX WITH IMAGE "
+        android:button="@drawable/imagecheckbox"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/cb1">
+
+    </CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHECKBOX WITH SIZE "
+        android:button="@drawable/sizecheckbox"
+        android:textSize="18dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/cb2">
+    </CheckBox>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select the check box"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/cbbutton">
+    </Button>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/rectangle"
+        android:textColor="#ffff00"
+        android:textSize="20dp"
+        android:text="Button"
+        android:id="@+id/rectangle">
+    </Button>
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gocustombutton"
+        android:text="go"
+        android:textColor="#ffff00"
+        android:textSize="20dp">
+    </Button>
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="DO U LIKE IT"
+    android:layout_marginLeft="125dp"
+    android:textSize="20dp"
+    android:textColor="#000"
+    android:textStyle="italic"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/radiogroup">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:text="YES"
+        android:id="@+id/rb1"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:text="NO"
+        android:id="@+id/rb2"/>
+</RadioGroup>
+</LinearLayout>

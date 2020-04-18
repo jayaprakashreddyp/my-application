@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_checked="false"
+    android:drawable="@drawable/checkbox1_image_box_blue">
+</item>
+    <item android:drawable="@drawable/checkbox1_image_tick_blue"
+        android:state_checked="true">
+    </item>
+
+</selector>
